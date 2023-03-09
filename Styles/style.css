@@ -47,7 +47,14 @@ body{
     font-size: 3rem;
     margin: 35;
 }
-
+.container-lista-conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 1rem;
+    gap: 1rem;
+}
 .container-lista-bloco{
     display: flex;
     justify-content: space-evenly;
@@ -74,14 +81,32 @@ body{
     color: black;
     font-family: 'Krona One', sans-serif;
     font-weight: 100;
-    font-size: 15px;
-    width: 898px;
+    font-size: 17px;
+    width: 895px;
     word-wrap: break-word;
-    
-    
+    text-align:justify
 }
 
 .container-imagem{
     width: 699px 330px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.container-imagem:hover{
+    -moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.02);
+    border: 2px solid #497174;
+}
+.rodape{
+    background-color:#bfd5e9;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.0rem;
+    margin: 11px;
+    border-radius: 2rem;
+}
+.rodape-texto{
+    font-size: 1.1rem;
 }
