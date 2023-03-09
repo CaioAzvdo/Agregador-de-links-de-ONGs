@@ -24,6 +24,9 @@ body{
     flex-direction: row;
     gap: 30px;
 }
+.cabecalho-menu-strong{
+    
+}
 .cabecalho-menu-titulo{
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
@@ -44,8 +47,8 @@ body{
 
 .cabecalho-menu-about{
     display: flex;
-    font-size: 3rem;
-    margin: 35;
+    font-size: 2rem;
+    margin: 15px;
 }
 .container-lista-conteudo{
     display: flex;
@@ -55,10 +58,11 @@ body{
     border-radius: 1rem;
     gap: 1rem;
 }
+
 .container-lista-bloco{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction:inherit;
     /* align-items:center; */
     /* width: 100%; */
     flex-wrap: wrap;
