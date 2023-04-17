@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Error 404</title>
 </head>
 <style>
 body {
@@ -20,11 +20,22 @@ img{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   
-}</style>
+}
+.imagem{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  transform: scaleX(-1);
+}
+</style>
 
 <body>
-  <audio src="Assets/working.mpeg" controls autoplay></audio>
+  <h1 class="error">Error 404</h1>
   <img src="Assets/working.jpg" alt="">  
-  <h1 class="error">Problemas técnicos... <br></h1>
+  <h1 class="error">Problemas técnicos...</h1>
+  <div class="seta"> 
+    <img class="imagem" src="Assets/seta.png" alt=""> 
+    <audio id="meu-audio" src="Assets/working.mpeg" controls autoplay></audio>
+  </div>
 </body>
 </html>
