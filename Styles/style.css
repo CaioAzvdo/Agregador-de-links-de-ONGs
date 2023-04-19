@@ -13,7 +13,24 @@ body{
     padding: auto;
     
 }
-
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search-txt{
+    padding: 10px;
+    border-radius: 1rem;
+    
+}
+.search-btn{
+    padding: 10px;
+}
+.search-btn:hover{
+    background-color: #bfd5e9;
+    border-radius: 2rem;
+}
 .cabecalho{
     display: flex;
     padding: 1% 0 0 2%;
@@ -67,8 +84,8 @@ body{
 }
 .container-lista-conteudo-titulo{
     /* background: white; */
-    border-radius: 10px;
-    padding: 0 440px 0 440px;
+    /* border-radius: 10px; */
+    /* padding: 0 440px 0 440px; */
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     padding: 10px;
@@ -123,7 +140,7 @@ body{
 }
 
 .container-imagem{
-    width: 699px 330px;
+    width: 560px;
     border-radius: 10px;
 }
 .container-imagem:hover{
