@@ -15,28 +15,13 @@
     }
 
 
-function searchFunction() {
-  var input, filter, ul, li, i, txtValue;
-  input = document.getElementById("search");
-  filter = input.value.toUpperCase();
-  ul = document.getElementsByTagName("ul")[0];
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    txtValue = li[i].textContent || li[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
 
 </script>
 <header class="cabecalho">
     <nav class="cabecalho-menu">
         <img src="Assets/network1.png" alt="">
         <h1 class="cabecalho-menu-titulo"><strong class="cabecalho-menu-strong">ONG</strong>List </h1>
-        <a class="cabecalho-menu-titulo-ancora" href="about.html">
+        <a class="cabecalho-menu-titulo-ancora" href="about.html">                                                                                          
             <p class="cabecalho-menu-about"> Sobre o site</p>
         </a>
         <a class="cabecalho-menu-titulo-ancora" href="about.html">

@@ -122,7 +122,8 @@ body{
     word-wrap: break-word;
     text-align:justify;
     text-decoration: none;
-    padding-top: 11px;
+    padding: 14px;
+    padding-top: 14px;
 }
 .container-lista-conteudo-texto-about{
     /* text-decoration: none; */
