@@ -111,6 +111,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 49px;
+    padding-top: 80px;
 }
 .container-lista-conteudo-texto{
     display: flex;
@@ -119,13 +120,21 @@ body{
     font-family: 'Krona One', sans-serif;
     font-weight: 100;
     font-size: 17px;
-    width: 895px;
+   
+    
     word-wrap: break-word;
     text-align:justify;
     text-decoration: none;
     padding: 14px;
-    padding-top: 14px;
+    padding-top: 37px;
+    width: 895px;
+   
+
 }
+
+
+
+
 .container-lista-conteudo-texto-about{
     /* text-decoration: none; */
     color: #14528b;
